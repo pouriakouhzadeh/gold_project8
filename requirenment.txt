@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+imblearn
+ta
+scipy
+tqdm
+joblib
+logging
+deap

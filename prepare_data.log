@@ -1,0 +1,83 @@
+2025-03-25 20:59:24,299 INFO:[INIT] filepaths={'30T': 'XAUUSD_M30.csv', '1H': 'XAUUSD_H1.csv', '15T': 'XAUUSD_M15.csv', '5T': 'XAUUSD_M5.csv'}, main_timeframe=30T
+2025-03-25 20:59:24,299 INFO:[load_data] Start loading all timeframes.
+2025-03-25 20:59:31,520 INFO:[load_and_process_timeframe] 30T: file loaded => shape=(198000, 6)
+2025-03-25 21:00:01,426 DEBUG:[30T] Dropped Ichimoku columns from ta
+2025-03-25 21:00:23,612 INFO:[load_and_process_timeframe] 1H: file loaded => shape=(100077, 6)
+2025-03-25 21:00:23,630 DEBUG:[1H] Resampling to main timeframe=30T
+2025-03-25 21:00:36,608 INFO:[load_and_process_timeframe] 15T: file loaded => shape=(393645, 6)
+2025-03-25 21:00:36,671 DEBUG:[15T] Resampling to main timeframe=30T
+2025-03-25 21:01:07,057 DEBUG:[1H] Dropped Ichimoku columns from ta
+2025-03-25 21:01:20,204 DEBUG:[15T] Dropped Ichimoku columns from ta
+2025-03-25 21:01:54,470 INFO:[load_and_process_timeframe] 5T: file loaded => shape=(1171996, 6)
+2025-03-25 21:01:54,644 DEBUG:[5T] Resampling to main timeframe=30T
+2025-03-25 21:02:37,424 DEBUG:[5T] Dropped Ichimoku columns from ta
+2025-03-25 21:03:10,009 INFO:[load_data] All timeframes loaded and merged => shape=(300175, 684)
+2025-03-25 21:03:10,909 INFO:Data ready is begining ... mode=train
+2025-03-25 21:03:15,401 INFO:[select_features] Start VarThreshold => X.shape=(225130, 659), y.shape=(225130,)
+2025-03-25 21:09:48,075 INFO:Data ready finish => X_final.shape=(225130, 300), y_final.shape=(225130,)
+2025-03-25 21:09:48,075 INFO:[ready] train_columns_after_window is set with 300 columns.
+2025-03-25 21:09:48,080 INFO:Number of selected features on Train: 300
+2025-03-25 21:09:48,893 INFO:Data ready is begining ... mode=train
+2025-03-25 21:09:48,893 INFO:Data ready is begining ... mode=train
+2025-03-25 21:09:48,893 INFO:Data ready is begining ... mode=train
+2025-03-25 21:09:48,894 INFO:Data ready is begining ... mode=train
+2025-03-25 21:09:48,894 INFO:Data ready is begining ... mode=train
+2025-03-25 21:11:31,624 INFO:Data ready finish => X_final.shape=(225129, 600), y_final.shape=(225129,)
+2025-03-25 21:11:31,637 INFO:[ready] train_columns_after_window is set with 600 columns.
+2025-03-25 21:11:59,239 INFO:Data ready finish => X_final.shape=(225128, 900), y_final.shape=(225128,)
+2025-03-25 21:11:59,251 INFO:[ready] train_columns_after_window is set with 900 columns.
+2025-03-25 21:12:03,720 INFO:Data ready finish => X_final.shape=(225128, 900), y_final.shape=(225128,)
+2025-03-25 21:12:03,734 INFO:[ready] train_columns_after_window is set with 900 columns.
+2025-03-25 21:12:36,355 INFO:Data ready finish => X_final.shape=(225127, 1200), y_final.shape=(225127,)
+2025-03-25 21:12:36,365 INFO:[ready] train_columns_after_window is set with 1200 columns.
+2025-03-25 21:12:59,224 INFO:Data ready finish => X_final.shape=(225125, 1800), y_final.shape=(225125,)
+2025-03-25 21:12:59,225 INFO:[ready] train_columns_after_window is set with 1800 columns.
+2025-03-25 21:16:17,163 INFO:Data ready is begining ... mode=train
+2025-03-25 21:18:15,127 INFO:Data ready finish => X_final.shape=(225127, 1200), y_final.shape=(225127,)
+2025-03-25 21:18:15,127 INFO:[ready] train_columns_after_window is set with 1200 columns.
+2025-03-25 21:41:42,377 INFO:Data ready is begining ... mode=train
+2025-03-25 21:43:12,365 INFO:Data ready finish => X_final.shape=(225128, 900), y_final.shape=(225128,)
+2025-03-25 21:43:12,365 INFO:[ready] train_columns_after_window is set with 900 columns.
+2025-03-25 21:51:37,694 INFO:Data ready is begining ... mode=train
+2025-03-25 21:53:42,566 INFO:Data ready finish => X_final.shape=(225127, 1200), y_final.shape=(225127,)
+2025-03-25 21:53:42,566 INFO:[ready] train_columns_after_window is set with 1200 columns.
+2025-03-25 21:56:10,316 INFO:Data ready is begining ... mode=train
+2025-03-25 21:56:18,536 INFO:Data ready finish => X_final.shape=(225130, 300), y_final.shape=(225130,)
+2025-03-25 21:56:18,536 INFO:[ready] train_columns_after_window is set with 300 columns.
+2025-03-25 21:57:53,588 INFO:Data ready is begining ... mode=train
+2025-03-25 22:00:59,658 INFO:Data ready finish => X_final.shape=(225125, 1800), y_final.shape=(225125,)
+2025-03-25 22:00:59,658 INFO:[ready] train_columns_after_window is set with 1800 columns.
+2025-03-25 22:07:57,476 INFO:Data ready is begining ... mode=train
+2025-03-25 22:09:35,299 INFO:Data ready finish => X_final.shape=(225128, 900), y_final.shape=(225128,)
+2025-03-25 22:09:35,299 INFO:[ready] train_columns_after_window is set with 900 columns.
+2025-03-25 22:11:33,160 INFO:Data ready is begining ... mode=train
+2025-03-25 22:13:29,163 INFO:Data ready finish => X_final.shape=(225127, 1200), y_final.shape=(225127,)
+2025-03-25 22:13:29,163 INFO:[ready] train_columns_after_window is set with 1200 columns.
+2025-03-25 22:23:03,445 INFO:Data ready is begining ... mode=train
+2025-03-25 22:25:51,944 INFO:Data ready is begining ... mode=train
+2025-03-25 22:26:10,410 INFO:Data ready finish => X_final.shape=(225125, 1800), y_final.shape=(225125,)
+2025-03-25 22:26:10,411 INFO:[ready] train_columns_after_window is set with 1800 columns.
+2025-03-25 22:27:28,918 INFO:Data ready finish => X_final.shape=(225128, 900), y_final.shape=(225128,)
+2025-03-25 22:27:28,919 INFO:[ready] train_columns_after_window is set with 900 columns.
+2025-03-26 02:37:40,049 WARNING:TimeoutError: evaluate_cv took too long. Returning 0.0 for fitness.
+2025-03-26 02:37:40,055 INFO:Data ready is begining ... mode=train
+2025-03-26 02:40:19,835 INFO:Data ready finish => X_final.shape=(225125, 1800), y_final.shape=(225125,)
+2025-03-26 02:40:19,835 INFO:[ready] train_columns_after_window is set with 1800 columns.
+2025-03-26 02:41:33,236 INFO:Data ready is begining ... mode=train
+2025-03-26 02:42:56,079 INFO:Data ready finish => X_final.shape=(225128, 900), y_final.shape=(225128,)
+2025-03-26 02:42:56,098 INFO:[ready] train_columns_after_window is set with 900 columns.
+2025-03-26 02:43:25,984 INFO:Data ready is begining ... mode=train
+2025-03-26 02:44:49,007 INFO:Data ready finish => X_final.shape=(225128, 900), y_final.shape=(225128,)
+2025-03-26 02:44:49,007 INFO:[ready] train_columns_after_window is set with 900 columns.
+2025-03-26 09:29:45,425 WARNING:TimeoutError: evaluate_cv took too long. Returning 0.0 for fitness.
+2025-03-26 12:13:09,775 WARNING:TimeoutError: evaluate_cv took too long. Returning 0.0 for fitness.
+2025-03-26 12:13:09,784 INFO:Data ready is begining ... mode=train
+2025-03-26 12:14:01,551 INFO:Data ready finish => X_final.shape=(225129, 600), y_final.shape=(225129,)
+2025-03-26 12:14:01,551 INFO:[ready] train_columns_after_window is set with 600 columns.
+2025-03-26 17:04:47,769 WARNING:TimeoutError: evaluate_cv took too long. Returning 0.0 for fitness.
+2025-03-26 17:04:47,772 INFO:Data ready is begining ... mode=train
+2025-03-26 17:05:39,366 INFO:Data ready finish => X_final.shape=(225129, 600), y_final.shape=(225129,)
+2025-03-26 17:05:39,366 INFO:[ready] train_columns_after_window is set with 600 columns.
+2025-03-26 17:15:29,006 INFO:Data ready is begining ... mode=train
+2025-03-26 17:17:09,301 INFO:Data ready finish => X_final.shape=(225127, 1200), y_final.shape=(225127,)
+2025-03-26 17:17:09,301 INFO:[ready] train_columns_after_window is set with 1200 columns.
